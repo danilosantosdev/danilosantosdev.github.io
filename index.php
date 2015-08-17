@@ -6,9 +6,7 @@
 	    $descricao = "Sou desenvolver web há 4 anos - HTML5, CSS3, Javascript, Jquery e PHP.";
 	    $keywords = "danilo santos, front-end recife, desenvolvedor web, criação de sites recife, web designer recife";
     	include_once 'includes/inc-head.php';
-    	require_once 'administracao/classes/Conexao.php';
-    	require_once 'administracao/classes/Portfolio.php';
-    	require_once 'administracao/classes/Pensamento.php';
+    	
     ?>
 
     <body>
@@ -109,7 +107,7 @@
 
 				</section>-->
 
-				<section id="publicidade" class="left">
+				<!-- <section id="publicidade" class="left">
 					<h1 class="titulos">Publicidade</h1>
 
 		            <div id="box-anuncio">
@@ -124,7 +122,7 @@
 			            <script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
 		            </div>
 
-				</section>
+				</section> -->
 
 			</section>
 

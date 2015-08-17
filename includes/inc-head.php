@@ -1,6 +1,6 @@
 <?php 
     //define("URL", "http://www.danilosantos.cc");
-    define("URL", "http://localhost/danilosantos");
+    define("URL", "http://danilosantosdev.github.io/");
 ?>
 
 <head>
