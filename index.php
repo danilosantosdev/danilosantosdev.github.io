@@ -21,7 +21,7 @@
 			<!-- conteúdo -->
 			<section id="conteudo" class="left">
 
-				<section id="portfolio" class="left">
+				<!-- <section id="portfolio" class="left">
 						
 					<div class="container paging_container">
 
@@ -29,17 +29,17 @@
 
                         	<?php
 
-                        		$c = new Conexao();
-                            	$con = $c->abrirConexao();
+                        		// $c = new Conexao();
+                          //   	$con = $c->abrirConexao();
 
-                        		if($con) {
+                        		// if($con) {
 
-                        			$port = new Portfolio();
-                        			$port->listar("SELECT * FROM portfolio WHERE publicado = 'sim' ORDER BY id DESC", "site");
+                        		// 	$port = new Portfolio();
+                        		// 	$port->listar("SELECT * FROM portfolio WHERE publicado = 'sim' ORDER BY id DESC", "site");
 
-                        		} else {
-                        			$c->erroConexao();
-                        		}
+                        		// } else {
+                        		// 	$c->erroConexao();
+                        		// }
 
                         	?>
 
@@ -49,7 +49,7 @@
 
                     </div>
 
-				</section>
+				</section> -->
 
 				<section id="contato" class="left">
 					<h1 class="titulos">Contato</h1>
@@ -84,45 +84,7 @@
 						<li>SQL</li>
 					</ul>
 
-				</section>
-
-				<!--<section id="util" class="right">
-					<h1 class="titulos">Pensamentos</h1>
-
-					<?php
-
-                		/*$c = new Conexao();
-                    	$con = $c->abrirConexao();
-
-                		if($con) {
-
-                			$pen = new Pensamento();
-                			$pen->listar("SELECT * FROM pensamento WHERE publicado = 'sim' ORDER BY id DESC", "");
-
-                		} else {
-                			$c->erroConexao();
-                		}*/
-
-                	?>
-
-				</section>-->
-
-				<!-- <section id="publicidade" class="left">
-					<h1 class="titulos">Publicidade</h1>
-
-		            <div id="box-anuncio">
-			            <script type="text/javascript">
-			                bb_bid = "1672463";
-			                bb_lang = "pt-BR";
-			                bb_keywords = "";
-			                bb_name = "custom";
-			                bb_limit = "8";
-			                bb_format = "bbb";
-			            </script>
-			            <script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
-		            </div>
-
-				</section> -->
+				</section>				
 
 			</section>
 
